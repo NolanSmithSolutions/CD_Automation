@@ -40,7 +40,7 @@ font_label=Label(window, text="Enter the font size you want: ").place(x = 5, y =
 font_entry = Entry(window,width=10,textvariable=font_size).place(x=200, y=130)
 
 file_name = StringVar()
-file_name.set('KenSongs')
+file_name.set('Songs_Output')
 file_label=Label(window, text="Enter the song file name: ").place(x = 5, y = 160)
 file_entry = Entry(window,width=20,textvariable=file_name).place(x=280, y=160)
 
